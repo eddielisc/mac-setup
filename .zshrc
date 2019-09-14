@@ -15,3 +15,4 @@ antigen theme robbyrussell
 # Tell Antigen that you're done.
 antigen apply
 
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
