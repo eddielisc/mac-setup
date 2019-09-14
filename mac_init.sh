@@ -6,9 +6,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 curl -L git.io/antigen > ~/antigen.zsh
 cp ./.zshrc ~/.zshrc
 
-nvm install 8
+nvm install stable
 
-brew install wget libevent yarn hub
+brew install wget libevent yarn hub git
 brew cask install shiftit spotify docker iterm2 visual-studio-code clipy
 
 brew cask minikube
