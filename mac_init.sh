@@ -9,6 +9,8 @@ cp ./.zshrc ~/.zshrc
 nvm install stable
 
 brew install wget libevent yarn hub git
+brew link --overwrite git
+
 brew cask install shiftit spotify docker iterm2 visual-studio-code clipy
 
 brew cask minikube
