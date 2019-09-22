@@ -30,6 +30,7 @@ code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension Tyriar.sort-lines
 code --install-extension wix.vscode-import-cost
+code --install-extension 2gua.rainbow-brackets
 
 defaults write com.apple.finder AppleShowAllFiles YES
 killall finder
