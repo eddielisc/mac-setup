@@ -31,6 +31,7 @@ code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension Tyriar.sort-lines
 code --install-extension wix.vscode-import-cost
 code --install-extension 2gua.rainbow-brackets
+code --install-extension firsttris.vscode-jest-runner
 
 defaults write com.apple.finder AppleShowAllFiles YES
 killall finder
