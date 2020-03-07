@@ -11,7 +11,7 @@ nvm install stable
 brew install wget libevent yarn hub git direnv
 brew link --overwrite git
 
-brew cask install shiftit spotify docker iterm2 visual-studio-code clipy
+brew cask install shiftit spotify docker iterm2 visual-studio-code clipy authy bitwarden
 
 brew cask minikube
 
