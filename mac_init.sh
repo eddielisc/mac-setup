@@ -8,7 +8,7 @@ cp ./.zshrc ./.gitconfig ./.gitconfig_me ~/
 
 nvm install stable
 
-brew install wget libevent yarn hub git
+brew install wget libevent yarn hub git direnv
 brew link --overwrite git
 
 brew cask install shiftit spotify docker iterm2 visual-studio-code clipy
