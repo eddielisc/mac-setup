@@ -52,5 +52,7 @@ code --install-extension yeluoqiuzhi.vscode-detect-charset
 
 defaults write com.apple.finder AppleShowAllFiles YES
 killall finder
+defaults write com.apple.dock autohide-time-modifier -float 0.15
+killall Dock
 
 yarn global add yo eslint
