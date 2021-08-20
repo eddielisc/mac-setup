@@ -11,8 +11,8 @@ nvm install stable
 brew install wget libevent yarn hub git direnv
 brew link --overwrite git
 
-brew install spotify firefox clipy authy bitwarden notion brave
-brew install shiftit docker iterm2 visual-studio-code
+brew install shiftit spotify firefox clipy authy bitwarden notion brave
+brew install docker iterm2 visual-studio-code dbeaver-community another-redis-desktop-manager
 brew install java11 intellij-idea-ce
 brew cask minikube
 
