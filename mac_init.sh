@@ -11,8 +11,9 @@ nvm install stable
 brew install wget libevent yarn hub git direnv
 brew link --overwrite git
 
-brew cask install shiftit spotify docker iterm2 visual-studio-code clipy authy bitwarden notion brave firefox
-
+brew install spotify firefox clipy authy bitwarden notion brave
+brew install shiftit docker iterm2 visual-studio-code
+brew install java11 intellij-idea-ce
 brew cask minikube
 
 defaults write com.apple.finder AppleShowAllFiles YES
