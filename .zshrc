@@ -22,5 +22,7 @@ eval "$(direnv hook zsh)"
 # use nvm stable everytime
 nvm use stable
 
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
 alias gclean='git checkout development;git branch -D `git branch | grep -v "master" | grep -v "development" | grep -v "release"`'
 alias dclean='docker container rm $(docker container ls -aq);docker rmi $(docker images -a -q)'
